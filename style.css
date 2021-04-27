@@ -15,7 +15,7 @@
 
 body {
   transition: 3s ease;
-  background-color: #131415;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   font-family: Montserrat
@@ -27,7 +27,7 @@ body.big::-webkit-scrollbar {
 .nav {
   position: fixed;
   z-index: 14;
-  background: #131415;
+  background: #000000;
   width: 100%;
   max-height: 72px;
 }
@@ -179,23 +179,6 @@ body.big::-webkit-scrollbar {
     position: absolute;
 }
 
-.button {
-    padding: 9px 20px;
-    border-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    color: white !important;
-    text-shadow: none !important;
-    transition: color 0.2s ease;
-}
-
-.button:hover {
-    border-color: #dbdbdb !important;
-    color: #dbdbdb !important;
-    text-decoration: none;
-}
-
 
 h1, h2 {
   text-align:center;
@@ -210,8 +193,13 @@ h1, h2 {
     transform: translate(-50%, 0);
     background-size: 100%;
     left: 50%;
-    border: 5px solid #131415;
+    border: 5px solid #000000;
 }
+
+h1, h2{
+  text-align:center;
+}
+
 
 .rainbow-text {
   
