@@ -184,18 +184,6 @@ h1, h2 {
   text-align:center;
 }
 
-#avatar {
-    width: 200px;
-    height: 200px;
-    background: rgb(56, 56, 56);
-    border-radius: 300px;
-    position: relative;
-    transform: translate(-50%, 0);
-    background-size: 100%;
-    left: 50%;
-    border: 5px solid #000000;
-}
-
 h1, h2{
   text-align:center;
 }
