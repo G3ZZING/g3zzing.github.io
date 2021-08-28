@@ -17,4 +17,4 @@ jobs:
           config_timezone: America/Sao_Paulo
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
-          plugin_pagespeed_url: g3zzing.github.io
+          plugin_pagespeed_url: https://g3zzing.github.io
