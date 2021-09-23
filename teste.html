@@ -6,10 +6,10 @@
 <body>
 <script>
 $(document).ready(function() {
-   $.getJSON( "config.json", function(json) {
-    //$.each(json, function (key, value) {
-  console.log(json.user_name.nickname + " and " + json.user_name.description);
-    //});
+   $.getJSON("config.json", function(json) {
+     $.each(json.person, function(i, f) {
+         console.log(f.job + "\n")
+     });
  });
 });
 </script>
