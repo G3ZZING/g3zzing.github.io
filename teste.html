@@ -7,9 +7,9 @@
 <script>
 $(document).ready(function() {
    $.getJSON( "config.json", function(json) {
-    $.each(json, function (key, value) {
-  console.log(value.user + "and" + value.description_user);
-    });
+    //$.each(json, function (key, value) {
+  console.log(json.user + "and" + json.description_user);
+    //});
  });
 });
 </script>
