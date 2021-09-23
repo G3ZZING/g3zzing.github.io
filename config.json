@@ -1,4 +1,10 @@
-[
-    {"user": "test", "description": "test_description"}
-    {"user2": "test", "description2": "test_description"}
-]
+{
+    "user_name": {
+        "nickname": "test",
+        "description": "test"
+    } 
+     "user_name2": {
+        "nickname": "test",
+        "description": "test"
+    }
+}    
