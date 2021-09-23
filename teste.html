@@ -8,7 +8,7 @@
 $(document).ready(function() {
    $.getJSON( "config.json", function(json) {
     //$.each(json, function (key, value) {
-  console.log(json.user + "and" + json.description_user);
+  console.log(json.user_name.nickname + "and" + json.user_name.description);
     //});
  });
 });
