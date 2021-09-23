@@ -1,23 +1,4 @@
 [
-    {
-        description: "red"
-    },
-    {
-        description: "green"
-    },
-    {
-        description: "blue"
-    },
-    {
-        description: "cyan"
-    },
-    {
-        description: "magenta"
-    },
-    {
-        description: "yellow"
-    },
-    {
-        description: "black"
-    }
+    {"user": "test", "description": "test_description"}
+    {"user2": "test", "description2": "test_description"}
 ]
