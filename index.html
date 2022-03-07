@@ -33,7 +33,7 @@
 			var timer = setInterval(relogio, 1000);
       $('body').terminal({
               help: function() {
-                  this.echo('Here is a list of available commands:\n> social - Will show some of my connections\n> clear - Will erase the entire console\n> exit - I say goodbye to you, see you next time!');
+                  this.echo('Here is a list of available commands:\n> social - Will show some of my connections\n> clear - Will erase the entire console\n> exit - I say goodbye to you, see you next time!\nbio - A simple biography (MENU)');
               },
               social: function() {
                   this.echo('Github: https://github.com/G3ZZING\nTwitter: https://twitter.com/demonfeelings\nDiscord: G3#5545 (https://discord.com/users/852733275500052491)');
@@ -42,7 +42,9 @@
                   window.location = "https://youtu.be/dQw4w9WgXcQ?t=43"
               },
               bio: function() {
-              var term = String.raw` ┌ [[;rgba(255, 255, 255);]Welcome] ───────────────────────────────────────────────────────────────────┐
+              var term = String.raw` 
+
+ ┌ [[;rgba(255, 255, 255);]Welcome] ───────────────────────────────────────────────────────────────────┐
  |                                                                            |
  | [[;rgba(249,99,90,255);]Biography]                                                                  |
  |  Hi, my name is Luiz. Better known as G3 (Nickname of G3ZZING), I do some  |
