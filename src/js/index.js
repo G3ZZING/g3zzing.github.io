@@ -1658,7 +1658,7 @@
             mask: false,
             caseSensitiveSearch: true,
             historySize: 60,
-            prompt: "root@user:[[;rgba(10, 153, 255);]~]$ ",
+            prompt: "[root@user [[;rgba(10, 153, 255);]~]]$ ",
             enabled: true,
             history: true,
             onPositionChange: $.noop,
