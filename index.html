@@ -10,6 +10,27 @@
    </head>
    <body></body>
    <script>
+   			function relogio() {
+   				var data = new Date();
+				var hor = data.getHours();
+				var min = data.getMinutes();
+				var seg = data.getSeconds();
+				
+				if (hor < 10) {
+					hor = "0" + hor;
+				}
+				if (min < 10) {
+					min = "0" + min;
+				}
+				if (seg < 10) {
+					seg = "0" + seg;
+				}
+				
+				horas = hor + ":" + min + ":" + seg;
+				return horas;
+				
+			}
+			var timer = setInterval(relogio, 1000);
       $('body').terminal({
               help: function() {
                   this.echo('Here is a list of available commands:\n> social - Will show some of my connections\n> clear - Will erase the entire console\n> exit - I say goodbye to you, see you next time!');
@@ -42,21 +63,21 @@
                   ▟█▙
                  ▟███▙
                 ▟█████▙                                     user@workstation
-               ▟███████▙                                     OS: Arch Linux
-              ▟███████][[;rgb(10, 115, 142);]██▙                 Kernel: x86_64 Linux 4.1.18-1-
-             ▟███████████▙                                   Uptime:
+               ▟███████▙                                    OS: Arch Linux
+              ▟███████][[;rgb(10, 115, 142);]██▙                 			       Kernel: x86_64 Linux 4.1.18-1-
+             ▟███████████▙                                  Uptime: ${relogio()}
             ▟█████████████▙]                                 Packages: 1065
-           [[;rgb(10, 115, 142);]▟███████████████▙           Shell: bash 4.3.42 
-          ▟█████████████████▙                                Resolution: 2560x1440
-         ▟███████████████████▙                               DE: Gnome
-        ▟██████████▀▀[[;rgb(173, 253, 252);]█████████▙      WM: GNOME Shell
-       ▟█████████      ████████▛                             WM Theme: Adwaita
-      ▟█████████        ████████▙                            GTK Theme: Adwaita [GTK2/3]
+           [[;rgb(10, 115, 142);]▟███████████████▙           ⠀⠀⠀⠀⠀⠀			 ⠀⠀⠀Shell: bash 4.3.42 
+          ▟█████████████████▙                               Resolution: 2560x1440
+         ▟███████████████████▙                              DE: Gnome
+        ▟██████████▀▀[[;rgb(173, 253, 252);]█████████▙    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀WM: GNOME Shell
+       ▟█████████      ████████▛                            WM Theme: Adwaita
+      ▟█████████        ████████▙                          ⠀GTK Theme: Adwaita [GTK2/3]
      ▟██████████]        █████████▙                          Icon Theme: Adwaita
-    [[;rgb(10, 115, 142);]▟███████████        ██████████▙    Font: Droid Sans 11
-   ▟██████▀▀▀              ▀▀██████▙                         CPU: Intel Core i5-3570K CPU @ 3.8GHZ
-  ▟███▀▘                       ▝▀███▙                       GPU: Gallium 0.4 on AMD TAHITI             
- ▟▛▀                               ▀▜▙]                     RAM: 3869MİB / 7947MiB                                                                                 
+    [[;rgb(10, 115, 142);]▟███████████        ██████████▙    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Font: Droid Sans 11
+   ▟██████▀▀▀              ▀▀██████▙                       ⠀CPU: Intel Core i5-3570K CPU @ 3.8GHZ
+  ▟███▀▘                       ▝▀███▙    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀GPU: Gallium 0.4 on AMD TAHITI             
+ ▟▛▀                               ▀▜▙]                  ⠀⠀RAM: 3869MİB / 7947MiB                                                                                 
  \n\nBelow a simple plagiarism from a "arch linux" terminal, try running "help".\n`
           });
           
