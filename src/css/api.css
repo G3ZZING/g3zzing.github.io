@@ -1,0 +1,206 @@
+body,
+h2,
+h3 {
+    margin: 0;
+    letter-spacing: 0.3px;
+    font: 13px Arial, Sans-Serif;
+    color:#000;
+    background-color: white;
+}
+
+
+  
+a {
+    text-decoration: none;
+}
+h1 {
+    font: 15px Arial, Sans-Serif;
+    color: #000;
+}
+
+a:link,
+a:visited {
+    color: #ffffff;
+}
+pre {
+    outline: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Source Code Pro', monospace;
+}
+.string {
+    color: green;
+}
+.number {
+    color: darkorange;
+}
+.boolean {
+    color: blue;
+}
+.null {
+    color: magenta;
+}
+.key {
+    color: red;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#container {
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+}
+.left-nav {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    top: 0;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #4b4b4b;
+    overflow-x: hidden;
+     background-image: url("https://denkybot.club/assets/wavy-light-by-nouridio.svg") !important;
+     background-position: bottom !important;
+     background-size: 200% !important;
+     background-repeat: no-repeat !important;
+    
+    text-align: center;
+    font-size: 18px;
+}
+
+.button {
+    padding: 5px 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white !important;
+    text-shadow: none !important;
+    transition: color 0.2s ease;
+}
+
+.button:hover {
+    border-color: #ffee00 !important;
+    color: #ffee00 !important;
+    text-decoration: none;
+}
+
+
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+.content {
+    margin-left: 191px;
+}
+.header {
+    font-weight: bold;
+    font-size: 24px;
+    color: #363636;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.w3-border {
+    border: 1px solid #ccc !important;
+    border-top-color: rgb(53, 53, 53) !important;
+    border-top-style: solid !important;
+    border-top-width: 1px !important;
+    border-right-color: rgb(53, 53, 53) !important;
+    border-right-style: solid !important;
+    border-right-width: 1px !important;
+    border-bottom-color: rgb(53, 53, 53) !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-left-color: rgb(53, 53, 53) !important;
+    border-left-style: solid !important;
+    border-left-width: 1px !important;
+    border-image-source: initial !important;
+    border-image-slice: initial !important;
+    border-image-width: initial !important;
+    border-image-outset: initial !important;
+    border-image-repeat: initial !important;
+    box-shadow: -5px 8px 6px -5px rgba(14, 15, 12, 0.4);
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
+}
+
+.w3-round-xlarge {
+    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+class {
+    color: rgb(252, 214, 0);
+}
+
+response {
+    color: rgb(0, 183, 255);
+}
+
+.w3-container {
+    padding: 0.01em 16px;
+}
+.action {
+    margin: 10px 0 80px;
+}
+#green {
+    font-color: green;
+}
+
+.action-route {
+    background-color: white;
+    font-size: 24px;
+}
+.action-summary {
+    margin: 10px 0 20px;
+}
+.action-params,
+.action-errors {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc;
+}
+.action-param-name,
+.action-param-type,
+.action-param-desc {
+    text-align: left;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+.action-param-name {
+    font-weight: bold;
+    width: 30%;
+}
+.notice {
+    border: 1px solid #06c;
+    background-color: #e5effa;
+    padding: 5px;
+    margin: 10px 0 15px;
+}
+
