@@ -43,6 +43,35 @@ pre {
 	border-radius: 6px;
 }
 
+.vl {
+  border-left: 3px double rgba(140, 140, 140, 0.747);
+  height: 40px;
+  position: absolute;
+  left: 25px;
+}
+
+.title {
+	font-family: 'Bebas Neue', sans-serif; 
+    font-size: 60px;
+	background: linear-gradient(-45deg, hsl(204, 2%, 69%), hsl(6, 0%, 37%));
+	background-size: 300%;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+    animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
 pre.line-numbers {
   position: relative;
   padding-left: 3.8em;
