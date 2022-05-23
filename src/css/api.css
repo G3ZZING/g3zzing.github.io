@@ -8,7 +8,14 @@ h3 {
     background-color: white;
 }
 
-
+desc {
+	color: #d6d6d6;
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+	letter-spacing: 1.8px;
+	font-size: 15px;
+	position: absolute;
+    left: 15px;
+}
   
 a {
     text-decoration: none;
@@ -16,6 +23,10 @@ a {
 h1 {
     font: 15px Arial, Sans-Serif;
     color: #000;
+}
+
+text {
+	
 }
 
 a:link,
@@ -27,7 +38,52 @@ pre {
     padding: 5px;
     margin: 5px;
     font-family: 'Source Code Pro', monospace;
+	background: #1d1e22;
+	box-shadow: 0 3px 13px rgb(0 0 0 / 50%);
+	border-radius: 6px;
 }
+
+pre.line-numbers {
+  position: relative;
+  padding-left: 3.8em;
+  counter-reset: linenumber;
+}
+
+separat {
+	color: #fff;
+}
+
+pre.line-numbers>code {
+  position: relative;
+  white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8em;
+  width: 3em;
+  /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #999;
+  user-select: none;
+}
+
+.line-numbers-rows>span {
+  display: block;
+  counter-increment: linenumber;
+}
+
+.line-numbers-rows>span:before {
+  content: counter(linenumber);
+  color: #999;
+  display: block;
+  padding-right: 0.8em;
+  text-align: right;
+}
+
 .string {
     color: green;
 }
